@@ -13,8 +13,8 @@
     $sql ="CREATE TABLE  persona (
         id_persona BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         nombres   varchar(30),
-        apellidop date ,
-        apellidom DATE,
+        apellidop varchar(50) ,
+        apellidom varchar(50),
         ci int (15)
     )";
 
